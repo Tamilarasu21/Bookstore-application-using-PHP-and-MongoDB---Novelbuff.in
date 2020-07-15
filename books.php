@@ -44,7 +44,7 @@
 		echo "<table class='table'>";
 	foreach($final as $books)
 	{
-		echo "<form action='' method='post'>";
+		echo "<form action='addToCart.php' method='post'>";
 		echo "<input type='hidden' name='id' value='".$books->_id."'>";
 		echo "<tr><td style='width:200px'><img src='admin/images/".$books->fileName."' width='120px' height='120px'></td>";
 		echo "<td><p><b style='color:#038ead'>Title : </b>".$books->title ."</p>";
@@ -74,37 +74,7 @@
     // { 
     // echo "<a href='?page=".$page."'>".$page."</a>&emsp;";
     // }
-	if(isset($_POST['add']))
-	{
-		$cart=array(
-					'_id'=> new MongoDB\BSON\ObjectID,
-					'name'=>$_SESSION['username'],
-					'fileName'=>$_POST['fileName'],
-					'title' =>$_POST['title'],
-					'author'=>$_POST['author'],
-					'type'=>$_POST['type'],
-					'price'=>$_POST['price'],
-					'path'=>$_POST['path'] 
-					);
-		try
-		{
-			$count_item=$db->cart->count(array('title'=>$_POST['title']));
-			if($count_item >1)
-			{
-				echo "<script>alert('product is already added in the cart')</script>";
-				echo "<script>window.location='books.php'</script>";
-			}
-			else
-			{
-				$result = $db->cart->insertOne($cart);
-				echo "<script>window.location='books.php'</script>";
-			}
-		}
-		catch(Exception $e)
-		{
-			die("error:".$e);
-		}
-	}
+	
 ?>
 </center>
 	<!--################################## bootstrap ###########################################-->
