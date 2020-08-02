@@ -1,4 +1,4 @@
-##Bookstore application using PHP, MongoDB and Bootstrap
+## Bookstore application using PHP, MongoDB and Bootstrap
 
 **Front-end : HTML, Bootstrap**
 
