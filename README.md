@@ -4,4 +4,4 @@
 Front-end : _PHP_
 Data Base : _MongoDB_**
 
-![Admin add book](../blob/master/Screenshots/novelbuff-adminaddbook.jpg?raw=true)
+![Admin add book](https://github.com/Tamilarasu21/Bookstore-application-using-PHP-and-MongoDB---Novelbuff.in/blob/master/Screenshots/novelbuff-adminaddbook.JPG)
