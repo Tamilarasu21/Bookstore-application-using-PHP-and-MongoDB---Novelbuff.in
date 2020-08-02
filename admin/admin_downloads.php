@@ -63,6 +63,7 @@ if($page < $num_of_pages) {
 }
 ?>
 </div>
+<br>
 <?php
 include '../footnav.php';
 ?>

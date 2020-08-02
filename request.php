@@ -14,7 +14,6 @@
 	<div class="row justify-content-center">
 		<div class="col-3 md-6 mt-5 pt-2">
 		<?php
-			//session_start(); 	#session start
 			include "dbconn.php";	#database connection
 			if(isset($_POST['submit']))
 			{

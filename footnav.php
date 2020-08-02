@@ -1,5 +1,5 @@
 <hr>
-<div style="background:#c6c7c3" class="text-center">
+<div style="background:#c6c7c3" class="text-center fixed-bottom">
 		<?php 
 		include "dbconn.php"; #include database
 		?>
