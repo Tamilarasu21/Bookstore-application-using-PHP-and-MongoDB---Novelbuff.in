@@ -9,7 +9,7 @@
 **Home page**
 ![Home](https://github.com/Tamilarasu21/Bookstore-application-using-PHP-and-MongoDB---Novelbuff.in/blob/master/Screenshots/novelbuff-home.JPG)
 
-**Pegister**
+**Register**
 ![Register](https://github.com/Tamilarasu21/Bookstore-application-using-PHP-and-MongoDB---Novelbuff.in/blob/master/Screenshots/novelbuff-register.JPG)
 
 **Login**
