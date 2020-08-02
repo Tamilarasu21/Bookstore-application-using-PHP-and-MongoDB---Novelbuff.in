@@ -4,4 +4,4 @@
 Front-end : _PHP_
 Data Base : _MongoDB_**
 
-![Admin add book](/Screenshots/novelbuff-adminaddbook.jpg)
+![Admin add book](../blob/master/Screenshots/novelbuff-adminaddbook.jpg?raw=true)
